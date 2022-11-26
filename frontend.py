@@ -64,7 +64,7 @@ class Ui_MainWindow(object):
         api_key = os.getenv("API_KEY")
 
         # Build the YouTube service object.
-        self.youtube_service = build('youtube', 'v3', developerKey=api_key)     # Assigning self so that this object can be used in and instance of this class.
+        self.youtube_service = build('youtube', 'v3', developerKey=api_key, static_discovery=False)     # Assigning self so that this object can be used in and instance of this class.
 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(443, 789)
