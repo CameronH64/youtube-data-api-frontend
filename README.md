@@ -46,7 +46,7 @@ Documentation for PyInstaller:
 https://pyinstaller.org/en/stable/usage.html
 
 # API Key Generation
-After the executable is generated, you must have a .env containing that API key file in the same directory as that executable. I'm not sharing my API key. However, this guide can show you how to do so.
+In order to use this application, you must have a .env file containing an API key in the same directory as that executable. I'm not sharing my API key. However, this guide can show you how to do generate your own.
 
 *Only steps 2 and 3 are necessary*.
 https://developers.google.com/youtube/v3/getting-started
