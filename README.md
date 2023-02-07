@@ -45,6 +45,16 @@ The "dist" folder contains the new executable; its name is what is specified in 
 Documentation for PyInstaller:
 https://pyinstaller.org/en/stable/usage.html
 
+# API Key Generation
+After the executable is generated, you must have a .env containing that API key file in the same directory as that executable. I'm not sharing my API key. However, this guide can show you how to do so.
+
+*Only steps 2 and 3 are necessary*.
+https://developers.google.com/youtube/v3/getting-started
+
+Once you generate it, paste the key and variable declaration in the .env file and save. The program is now completely ready to be used!
+
+    API_KEY=api_key_goes_here
+
 # Known Bugs:
 - For some reason, on some computers, the program may crash after clicking the download button (the audio still downloads fine). Just open the application again to use it again.
 
