@@ -6,11 +6,11 @@ This was the final project for one of my computer science elective courses, Intr
 - Displays channel profile art.
 - Displays channel views, likes, and subscribers, location, and description.
 - Displays the most popular recent video (out of the last ten videos).
--- Video title
--- View count
--- Like count
--- Thumbnail art
--- _Can download the audio of this video (thanks to yt_dlp)_
+    - Video title
+    - View count
+    - Like count
+    - Thumbnail art
+    - _Can download the audio of this video (thanks to yt_dlp)_
 
 # How to Use:
 Using this program is simple. All you need is a YouTube channel's channel ID. Copy and paste this channel ID into the text box in the program. The information for that YouTube channel will be displayed.
